@@ -47,11 +47,11 @@ const { File } = require('megajs')
 const prefix = '.'
 
 
-const ownerNumber = ['🧚‍♂️💕𝗔𝗱𝗱 𝗬𝗼𝘂𝗿 𝗕𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 𝗛𝗲𝗿𝗲 𝗪𝗶𝘁𝗵 𝗖𝗼𝘂𝗻𝘁𝗿𝘆 𝗖𝗼𝗱𝗲💕🧚‍♂️']
+const ownerNumber = ['94771162626']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('vNkzDbDS#2Ip7KEEgzhi5pflLRJDSjJJiKYRQBJcsrXC0s3pyzrs')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
